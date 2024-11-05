@@ -1,0 +1,17 @@
+.custom-navbar{
+    background-color: #217AA0;
+    height: 180px;
+    position: relative;
+}
+.navbar-brand {
+    font-size: 4rem; /* Adjust font size if needed */
+    color: white;
+    font-style: italic;
+}
+
+.btn-logout{
+    position: absolute; /* Position button absolutely */
+    right: 80px; /* Distance from the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+}

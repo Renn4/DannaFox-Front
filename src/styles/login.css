@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #217AA0; /* Light background color */
+}
+.login-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 45%;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.login-btn {
+    position: absolute;
+    padding: 10px 20px;
+    bottom: 30px;
+    background-color: #4285F4; /* Google blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login-btn:hover {
+    background-color: #357AE8; /* Darker blue on hover */
+    color: white;
+}
+.login-text{
+    position: absolute;
+    top: 40%;
+    max-width: 40ch;
+}
+.title-text{
+    margin-top: 20px;
+}
+.subtitle-text{
+    font-size: 0.8rem;
+    color: #888
+}
